@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  padding: 70px;
+  background-color: #333333;
+  color: #e6e6e6;
+}
+
+.page {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page ul a:hover {
+  text-decoration: underline;
+}
+
+.marque {
+  margin-right: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: #e6e6e6;
+}

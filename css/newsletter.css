@@ -1,0 +1,60 @@
+.avantages {
+  display: flex;
+  justify-content: center;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  max-width: 1110px;
+  margin: 60px auto;
+  gap: 20px;
+  padding: 20px;
+  align-self: center;
+  font-size: 12px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+i {
+  box-sizing: border-box;
+  font-size: 28px;
+  padding: 0 10px;
+}
+
+/* newsletter.html */
+
+.newsletter {
+  display: flex;
+  justify-content: center;
+  background-color: #e6e6e6;
+  max-width: 1110px;
+  margin: 60px auto;
+  gap: 20px;
+  padding: 50px;
+  align-items: center;
+}
+
+.inscrire {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.news {
+  max-width: 400px;
+}
+
+.email {
+  margin-left: auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+input {
+  border: none;
+  outline: none;
+}
