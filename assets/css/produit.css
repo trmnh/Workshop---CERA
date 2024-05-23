@@ -1,5 +1,5 @@
 #rectangle {
-  margin-top: 30px;
+  margin-top: 130px;
 }
 
 .img-article {
@@ -23,6 +23,17 @@
   width: 555px;
   height: 555px;
   padding: 50px;
+  align-self: center;
+}
+
+/* mediaquerries */
+
+@media screen and (max-width: 992px) {
+  .produit {
+    width: 555px;
+    height: 350px;
+    padding: 30px;
+  }
 }
 
 .container-rectangle {
@@ -59,4 +70,12 @@
   background-color: white;
   color: black;
   border-radius: 5px;
+}
+
+.section-logo h2 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 10px;
 }

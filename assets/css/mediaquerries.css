@@ -1,0 +1,26 @@
+/* media querries */
+
+@media screen and (max-width: 992px) {
+  .banner {
+    padding: 100px 7px;
+  }
+
+  .head-container {
+    padding: 30px;
+    width: 300px;
+  }
+
+  .container-titre {
+    justify-content: center;
+  }
+
+  .avantages {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .newsletter {
+    flex-direction: column;
+    align-items: center;
+  }
+}

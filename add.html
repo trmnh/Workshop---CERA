@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Page d'Accueil" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajouter un produit - CERA</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="admin.html" class="logo">CERA</a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
+      <nav class="navbar" id="nav">
+        <a href="add.html" style="--i: 0">Ajouter</a>
+        <a href="index.html" style="--i: 1">Déconnexion</a>
+      </nav>
+    </header>
+
+    <section>
+      <h2 class="container-titre autre">Ajouter les produits</h2>
+      <div class="container">
+        <!-- 
+            Formulaire pour ajouter un produit
+            - Image du produit
+            - Titre du produit
+            - Sous-titre du produit
+            - Status du produit avec checkbox (afficher ou non)
+            - Prix du produit
+            - Description du produit 1
+            - Description du produit 2
+            - Description du produit 3
+            - Bouton sauvegarder
+            
+         -->
+        <form action="add.php" method="POST" class="form">
+          <div class="form-admin">
+
+            
+            <label for="titre">Titre</label>
+            <input type="text" name="titre" id="titre" required />
+
+            <label for="sous-titre">Sous-titre</label>
+            <input type="text" name="sous-titre" id="sous-titre" required />
+
+            <label for="status">Status</label>
+            <input type="checkbox" name="status" id="status" />
+
+            <label for="prix">Prix</label>
+            <input type="number" name="prix" id="prix" required />
+
+            <label for="description1" >Description 1</label>
+            <textarea name="description1" id="description1" required class="description"></textarea>
+
+            <label for="description2" >Description 2</label>
+            <textarea name="description2" id="description2" required class="description"></textarea>
+
+            <label for="description3" >Description 3</label>
+            <textarea name="description3" id="description3" required class="description"></textarea>
+
+            <button type="submit" class="button-decouvrir">Sauvegarder</button>
+            </div>
+        
+            
+            
+            
+            
+            
+
+      </div>
+    </section>
+  </body>
+</html>

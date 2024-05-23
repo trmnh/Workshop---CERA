@@ -1,8 +1,9 @@
 .banner-contact {
   background-size: cover;
   background-position: center;
-  padding: 200px;
-  background-image: url(../img/banner\ cera.png);
+  padding: 150px 20px;
+  height: 450px;
+  background-image: url(../img/contact.webp);
   align-items: center;
   display: flex;
   justify-content: center;

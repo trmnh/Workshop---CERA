@@ -5,48 +5,66 @@
     <meta name="description" content="Page d'Accueil" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Produit - CERA</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="assets/css/select.css">
+
   </head>
   <body>
     <header class="header">
       <a href="index.html" class="logo">CERA</a>
 
-      <nav class="navbar">
-        <a href="allProduits.html">Produits</a>
-        <a href="marques.html">Marques</a>
-        <a href="apropos.html">A Propos</a>
-        <a href="#">Connexion</a>
-        <a href="#">Panier</a>
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
+      <nav class="navbar" id="nav">
+        <a href="allProduits.html" style="--i: 0">Produits</a>
+        <a href="marques.html" style="--i: 1">Marques</a>
+        <a href="apropos.html" style="--i: 2">A Propos</a>
+        <a href="#" style="--i: 3">Connexion</a>
+        <a href="#" style="--i: 4">Panier</a>
       </nav>
     </header>
 
     <section class="container-rectangle" id="rectangle">
       <div class="img-article">
         
-          <img src="img/uniqlo-t-shirt.webp" alt="Vêtement 1" class="image-article"/>
-        
+          <img src="assets/img/uniqlo-t-shirt.webp" alt="Vêtement 1" class="image-article"/>
+      
+          <!-- Logo + nom de la marque -->
       </div>
       <div class="produit">
-        <h2>Uniqlo T-Shirt KAWS Pink Graphic</h2>
+        <div class="section-logo">
+                  <h2>
+          <img src="assets/img/uniqlo.png" class="logo-marque" alt="">
+          Uniqlo
+        </h2>
+        </div>
+        
+      <!-- Nom du produit + petite description + prix + select size -->
+        <h2>KAWS Pink Graphic</h2>
         <p>
           Nouvelle association entre Uniqlo et l'artiste KAWS pour une
           collection inédite!
         </p>
         <h2>100 €</h2>
-        <div class="button-size">
-          <select name="size" id="size">
+        
+        <label class="select">
+          <select name="Size">
             <option value="" disabled selected hidden>Votre taille</option>
             <option value="xs">XS</option>
             <option value="s">S</option>
             <option value="m">M</option>
-            <option value="l">L</option>
-            <option value="xl">XL</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
           </select>
-        </div>
+        </label>     
       <div>
         <button class="button-panier">Ajouter au panier</button>
       </div>
@@ -166,5 +184,6 @@
         </ul>
       </div>
     </footer>
+    <script src="assets/js/select.js"></script>
   </body>
 </html>

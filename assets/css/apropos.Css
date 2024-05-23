@@ -9,3 +9,19 @@
   justify-content: center;
   margin-bottom: 40px;
 }
+
+.avantages {
+  overflow: hidden;
+}
+
+section {
+  overflow: hidden;
+}
+
+.box-marque {
+  overflow: hidden;
+}
+
+.container-marque {
+  overflow: hidden;
+}
