@@ -1,0 +1,51 @@
+.container-produit {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1140px;
+  justify-content: center;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-titre {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  justify-content: flex-start;
+  margin: auto;
+  padding: 40px 0;
+  padding-left: 10px;
+}
+
+.container-filter {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  justify-content: flex-start;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.element-item {
+  padding: 10px;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.button-group button {
+  background-color: #f2f2f2; /* Couleur de fond plus claire */
+  color: #333; /* Couleur de texte plus douce */
+  border: 1px solid #ccc; /* Ajout d'une bordure subtile */
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #e6e6e6; /* Couleur de fond plus foncée lors du survol */
+}

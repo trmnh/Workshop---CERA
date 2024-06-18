@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Page d'Accueil" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - CERA</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">CERA</a>
+
+      <nav class="navbar"></nav>
+    </header>
+
+    <!-- page connexion de l'admin -->
+    <div class="ad-container">
+      <div class="ad-titre">
+        <h2>Connexion Admin</h2>
+        <div class="ad-contenu">
+          <form action="admin.php" method="post">
+            <label for="login">Login</label>
+            <input type="text" name="login" id="login" />
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password" />
+            <input type="submit" value="Connexion" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- <a href="index.html">Retour à l'accueil</a> -->
+  </body>
+</html>

@@ -1,0 +1,93 @@
+#rectangle {
+  margin-top: 130px;
+}
+
+.img-article {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-article img {
+  width: 555px;
+  height: 555px;
+
+  object-fit: cover;
+  padding: 50px;
+}
+
+.produit {
+  background-color: black;
+  color: white;
+  gap: 20px;
+  width: 555px;
+  height: 555px;
+  padding: 50px;
+  align-self: center;
+}
+
+/* mediaquerries */
+
+@media screen and (max-width: 992px) {
+  .produit {
+    width: 555px;
+    height: 350px;
+    padding: 30px;
+  }
+}
+
+.container-rectangle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-description {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  background-color: #f2f2f2;
+  padding: 60px;
+  margin: 50px auto;
+  gap: 25px;
+}
+
+.produit p {
+  margin: 20px 0;
+}
+
+.button-panier {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.button-size {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.section-logo h2 {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.img-article-shoes {
+  width: 555px;
+  height: 555px;
+  object-fit: cover;
+  padding: 90px 10px !important;
+}
+
+.prix {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,345 @@
+.titre-admin {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.container-titrea {
+  margin-left: 149px;
+  padding: 20px 0;
+}
+
+.ad-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.ad-titre {
+  background-color: #f2f2f2;
+
+  text-align: center;
+
+  padding: 100px 300px;
+}
+
+.ad-contenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  width: 250px;
+}
+
+.produit-admin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+}
+
+.box-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-admin {
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  flex-wrap: wrap;
+}
+
+.log {
+  height: 100vh;
+  align-items: center;
+}
+
+.color-form {
+  background: #f0f0f1;
+}
+
+.box-admin {
+  display: flex;
+  justify-content: center;
+}
+
+.img-logo {
+  background-color: black;
+}
+
+.conex {
+  width: 800px;
+  height: 500px;
+  background-color: #f0f0f1;
+  padding: 25px 0;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+/* form add.html */
+
+.form-admin {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form-admin label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-admin input,
+.form-admin textarea {
+  width: 700px;
+  padding: 12px 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-admin input[type="checkbox"] {
+  width: auto;
+  margin-bottom: 0;
+}
+
+.form-admin button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-admin button:hover {
+  background-color: #444;
+}
+
+.form-admin textarea.description {
+  height: 200px;
+  width: 500px;
+}
+
+/* boutons modifier/afficher/supprimer */
+
+.button-modifier {
+  background-color: #007bff;
+}
+
+.button-modifier:hover {
+  background-color: #0056b3;
+}
+
+.button-afficher {
+  background-color: #28a745;
+}
+
+.button-afficher:hover {
+  background-color: #218838;
+}
+
+.button-supprimer {
+  background-color: #dc3545;
+}
+
+.button-supprimer:hover {
+  background-color: #c82333;
+}
+
+/* css tableau */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td img {
+  width: 80px;
+  height: auto;
+}
+
+.button-modifier,
+.button-afficher,
+.button-supprimer {
+  margin-right: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.button-modifier {
+  background-color: #007bff;
+}
+
+.button-modifier:hover {
+  background-color: #0056b3;
+}
+
+.button-afficher {
+  background-color: #28a745;
+}
+
+.button-afficher:hover {
+  background-color: #218838;
+}
+
+.button-supprimer {
+  background-color: #dc3545;
+}
+
+.button-supprimer:hover {
+  background-color: #c82333;
+}
+
+/* mediaquerries tableau */
+@media (max-width: 920px) {
+  table {
+    width: 700px;
+  }
+
+  .button-modifier,
+  .button-afficher,
+  .button-supprimer {
+    display: block; /* Chaque bouton occupe une ligne entière */
+    width: 100%; /* Chaque bouton s'étend sur toute la largeur disponible */
+    margin-bottom: 10px; /* Ajoute un espace entre les boutons */
+  }
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    margin: 0 0 1rem 0;
+  }
+
+  tr:nth-child(odd) {
+    background: #ccc;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  td:nth-of-type(1):before {
+    content: "Image";
+    font-weight: 700;
+  }
+  td:nth-of-type(2):before {
+    content: "Nom du produit";
+    font-weight: 700;
+  }
+  td:nth-of-type(3):before {
+    content: "Catégorie";
+    font-weight: 700;
+  }
+  td:nth-of-type(4):before {
+    content: "Actions";
+    font-weight: 700;
+  }
+}
+
+.anom {
+  text-decoration: none;
+  color: #000;
+}
+
+.anom:hover {
+  color: red;
+}
+
+@media (max-width: 720px) {
+  table {
+    width: 500px;
+  }
+}
+
+@media (max-width: 520px) {
+  table {
+    width: 400px;
+  }
+}
+
+/* Styles pour les onglets */
+.tab {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin-top: 80px;
+}
+
+@media (max-width: 992px) {
+  .tab {
+    margin-top: 70px;
+  }
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.autre {
+  margin-top: 80px;
+}
