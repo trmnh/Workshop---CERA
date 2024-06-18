@@ -8,10 +8,13 @@
 @import url("contact.css");
 @import url("admin.css");
 @import url("mediaquerries.css");
+<<<<<<< HEAD
 
 body {
   box-sizing: border-box;
 }
+=======
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9
 
 * {
   margin: 0;
@@ -210,6 +213,7 @@ a:hover {
   width: 100%;
 }
 
+<<<<<<< HEAD
 section {
   overflow: hidden;
 }
@@ -255,3 +259,12 @@ section {
 .msg-pos {
   margin-top: 100px;
 }
+=======
+.autre {
+  margin-top: 70px;
+}
+
+section {
+  overflow: hidden;
+}
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9

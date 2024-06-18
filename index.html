@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Page d'Accueil" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil - CERA</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo">CERA</a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-x" id="close-icon"></i>
+      </label>
+
+      <nav class="navbar" id="nav">
+        <a href="allProduits.html" style="--i: 0">Produits</a>
+        <a href="marques.html" style="--i: 1">Marques</a>
+        <a href="apropos.html" style="--i: 2">A Propos</a>
+        <a href="login.html" style="--i: 3">Connexion</a>
+        <a href="#" style="--i: 4">Panier</a>
+      </nav>
+    </header>
+
+    <div class="banner autre">
+      <div class="head-container" data-aos="zoom-in" data-aos-duration="1500">
+        <h1>CERA</h1>
+        <p>
+          Des vêtements éco-responsables imaginés par des jeunes créateurs rien
+          que pour vous
+        </p>
+        <a href="allProduits.html" class="button-decouvrir">Découvrir</a>
+      </div>
+    </div>
+    <section>
+      <h2 class="container-titre">Nouveautés</h2>
+
+      <div class="container">
+        <div
+          data-aos="fade-right"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1500"
+          data-aos-delay="250"
+        >
+          <a href="produit.html" class="zoom">
+            <img
+              src="assets/img/uniqlo-t-shirt.webp"
+              alt="T-Shirt Uniqlo KAWS Pink Graphic"
+              class="img-produit"
+            />
+          </a>
+          <a href="produit.html" class="text-a">
+            <h3>Uniqlo T-Shirt KAWS Pink Graphic</h3>
+            <p>65€</p>
+          </a>
+        </div>
+
+        <div
+          data-aos="fade-right"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1500"
+          data-aos-delay="125"
+        >
+          <a href="produit.html" class="zoom-shoes">
+            <img src="assets/img/dunk.webp" alt="Nike Dunk" class="img-shoes" />
+          </a>
+          <a href="produit.html" class="text-a">
+            <h3>Nike Dunk Low Black White</h3>
+            <p>110€</p>
+          </a>
+        </div>
+
+        <div
+          data-aos="fade-right"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1500"
+        >
+          <a href="produit.html" class="zoom-shoes">
+            <img
+              src="assets/img/adidas-campus-00s-grey-white-3.webp"
+              alt="Adidas Campus Grey"
+              class="img-shoes"
+            />
+          </a>
+          <a href="produit.html" class="text-a">
+            <h3>Adidas Campus 00s Grey White</h3>
+            <p>120€</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="container-titre">Marques</h2>
+      <div class="container-marque">
+        <a
+          href="produit.html"
+          class="text-a zoom"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="1500"
+        >
+          <img
+            src="assets/img/ADIDAS carre.png"
+            alt="Adidas"
+            class="img-marque"
+          />
+          <h3>ADIDAS</h3>
+        </a>
+
+        <a
+          href="produit.html"
+          class="text-a zoom"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="2500"
+          data-aos-delay="125"
+          ><img
+            src="assets/img/marque nike.png"
+            alt="Nike"
+            class="img-marque"
+          />
+          <h3>NIKE</h3>
+        </a>
+
+        <a
+          href="produit.html"
+          class="text-a zoom"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="2500"
+          data-aos-delay="250"
+          ><img
+            src="assets/img/Marque New Balance.png"
+            alt="New Balance"
+            class="img-marque"
+          />
+          <h3>NEW BALANCE</h3>
+        </a>
+      </div>
+    </section>
+
+    <section class="avantages" data-aos="fade-up" data-aos-duration="1000">
+      <div class="icon">
+        <i class="bx bxs-truck"></i>
+        <h3>Livraison gratuite à partir de 200€</h3>
+      </div>
+
+      <div class="icon">
+        <i class="bx bxs-credit-card-alt"></i>
+        <h3>Paiement en 2,3 ou 4 fois avec Alma</h3>
+      </div>
+
+      <div class="icon">
+        <i class="bx bxs-user-check"></i>
+        <h3>Marques Partenaires</h3>
+      </div>
+
+      <div class="icon">
+        <i class="bx bxs-message-dots"></i>
+        <h3>Service client réactif</h3>
+      </div>
+    </section>
+
+    <section class="newsletter" data-aos="fade-up" data-aos-duration="1000">
+      <div class="news">
+        <h3>Newsletter</h3>
+        <p>
+          Vous inscrire et bénéficier de 10€ offerts sur votre première commande
+          dès 100€ d'achats.
+        </p>
+      </div>
+      <div class="email">
+        <form>
+          <input type="email" placeholder="Email" />
+          <button class="inscrire">S'inscrire</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="marque">
+        <h1>CERA</h1>
+        <p>© 2024 CERA</p>
+      </div>
+      <div class="page">
+        <ul>
+          <li><a href="#">Produits</a></li>
+          <li><a href="#">Marques</a></li>
+          <li><a href="#">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/script.js">
+      AOS.init();
+    </script>
+  </body>
+</html>

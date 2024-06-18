@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e7a5aad-159a-44f1-8056-23546888e707" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../allProduits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apropos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/allProduits.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/apropos.Css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/marque.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/nav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/newsletter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/produit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/ADIDAS carre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/Group 633053.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/Marque Adidas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/Marque New Balance.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/Marque Salomon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/adidas-campus-00s-grey-white-3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/banner cera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/banner.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/dunk.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/histoire1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/histoire2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/histoire3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/histoire4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/histoire5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/hsitoire6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/image 12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/marque nike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/prehome-tinified.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../img/uniqlo-t-shirt.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../marques.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../produit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2hV5dTFRKGIsA8ewW8pVHUgvuKa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e7a5aad-159a-44f1-8056-23546888e707" name="Changes" comment="" />
+      <created>1717666492163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717666492163</updated>
+      <workItem from="1717666493648" duration="103000" />
+      <workItem from="1717666602897" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

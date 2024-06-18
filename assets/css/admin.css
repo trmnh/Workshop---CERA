@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .titre-admin {
   display: flex;
   justify-content: center;
@@ -9,11 +10,17 @@
   padding: 20px 0;
 }
 
+=======
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9
 .ad-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+<<<<<<< HEAD
+=======
+  height: 753px;
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9
 }
 
 .ad-titre {
@@ -48,12 +55,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+=======
+  gap: 20px;
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9
 }
 
 .container-admin {
   display: flex;
   justify-content: center;
   max-width: 1500px;
+<<<<<<< HEAD
   flex-wrap: wrap;
 }
 
@@ -64,6 +76,8 @@
 
 .color-form {
   background: #f0f0f1;
+=======
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9
 }
 
 .box-admin {
@@ -71,6 +85,7 @@
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .img-logo {
   background-color: black;
 }
@@ -84,6 +99,8 @@
   flex-wrap: wrap;
 }
 
+=======
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9
 /* form add.html */
 
 .form-admin {
@@ -100,8 +117,13 @@
 
 .form-admin input,
 .form-admin textarea {
+<<<<<<< HEAD
   width: 700px;
   padding: 12px 10px;
+=======
+  width: 100%;
+  padding: 10px;
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9
   margin-bottom: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -159,6 +181,10 @@
 table {
   width: 100%;
   border-collapse: collapse;
+<<<<<<< HEAD
+=======
+  margin-bottom: 20px;
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9
 }
 
 th,
@@ -302,6 +328,7 @@ td img {
     width: 400px;
   }
 }
+<<<<<<< HEAD
 
 /* Styles pour les onglets */
 .tab {
@@ -343,3 +370,5 @@ td img {
 .autre {
   margin-top: 80px;
 }
+=======
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9

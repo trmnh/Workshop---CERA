@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 require 'settings.php';
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
@@ -76,3 +77,6 @@ if (isset($_GET['p_id'])) {
     </section>
 </body>
 </html>
+=======
+
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9

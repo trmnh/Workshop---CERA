@@ -29,6 +29,7 @@
         (DEBUG)? $st = 'Error : ' . $e->getMessage() : $st = "Error : Database connexion";            
         return $st; 
     }
+<<<<<<< HEAD
 }
 
 
@@ -98,4 +99,6 @@ function userIdentificationDB($conn, $datas) {
         (DEBUG)? $st = 'Error : ' . $e->getMessage() : $st = "Error in : userIdentificationDB() function";            
         return $st;      
     }       
+=======
+>>>>>>> de63bc31fc047e70312b08a81679f24d297f2cd9
 }
